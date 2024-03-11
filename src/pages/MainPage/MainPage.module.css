@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 6fr;
+  gap: 10px;
+}
+
+.spinContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}

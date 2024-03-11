@@ -1,0 +1,21 @@
+.card {
+  width: 250px;
+  max-height: 220px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.brand {
+  margin: 0;
+}
+
+.price {
+  margin: 0;
+  align-self: end;
+  color: var(--app-color-text);
+  font-weight: 500;
+}
